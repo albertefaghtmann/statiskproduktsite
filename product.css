@@ -1,0 +1,25 @@
+.purchaseBox {
+  background: #d8d8d8;
+  color: var(--background-color);
+  padding: 1rem;
+  margin: 55px;
+}
+
+@media screen and (min-width: 1000px) {
+  .purchaseBox {
+    order: 2;
+    transform: translate(-50px, -100px);
+  }
+  .info {
+    order: 0;
+  }
+}
+
+img {
+  width: 50%;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+  display: flex;
+}

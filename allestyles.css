@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.h1 {
+  color: hotpink;
+  font-family: "overskrift";
+}
+
+.mainNav h1 span {
+  display: inline-block;
+  transform: scaleX(-1);
+  color: var(--off-color);
+}
+.mainNav {
+  margin: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .mainNav {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.mainNav h1 {
+  margin-right: auto;
+}
+
+h1 {
+  color: #003083;
+  font-family: "overskrift";
+  font-size: 4rem;
+}
+
+h2 {
+  color: #006abc;
+  font-size: 2rem;
+  font-family: "overskrift1";
+}
+
+h3 {
+  color: #002473;
+  font-size: 1.8rem;
+  font-family: "overskrift1";
+}
+
+a,
+li {
+  font-size: 2rem;
+  font-family: "broedtekst";
+  color: #006abc;
+}
+
+dt {
+  color: #006abc;
+  font-size: 1.8rem;
+  font-family: "overskrift1";
+}
+
+mark.R {
+  color: #0098f1;
+  background: none;
+}
+
+p,
+dd,
+form {
+  color: #001d64;
+  font-size: 1.5rem;
+  font-family: "broedtekst";
+}
+
+@font-face {
+  font-family: "overskrift";
+  src: url(fonte/Kanit/Kanit-Bold.ttf);
+}
+
+@font-face {
+  font-family: "overskrift1";
+  src: url(fonte/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: "broedtekst";
+  src: url(fonte/Poppins/Poppins-Light.ttf);
+}

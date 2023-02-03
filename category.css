@@ -1,0 +1,16 @@
+.brandlist li {
+  border-bottom: 1px solid #d8d8d8;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.brandlist ol {
+  column-count: 2;
+  list-style-type: none;
+}
+
+li {
+  list-style-position: inside;
+}
